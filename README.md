@@ -36,9 +36,10 @@ _...powercube_twobody3\_.npz contains the extracted relative two-body interactio
 
 This code runs on Python (version 3) and requires the following packages:
 
-numpy version 1.23+\
-scipy version 1.10+\
-matplotlib 3.7+
+numpy
+scipy
+matplotlib
+joblib
 
 The python scripts can be run from the command line or from an IDE of your choice.
 
