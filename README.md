@@ -28,7 +28,9 @@ _Dark transport data is containted in two files. ...\_pci.dat contains the raw m
 \
 **dev2_photocurrent**\
 \
-_Photocurrent data is containted in three files. ...\_pci.npy contains the raw photocurrent data and is a 3d numpy array. ...\_pow.npy contains the laser power data at each measurement point and has the same size and shape of the photocurrent data. ...log.log contains experimental information and measurement metadata._
+_The photocurrent data is containted in three files. ...\_pci.npy contains the raw photocurrent data and is a 3d numpy array. ...\_pow.npy contains the laser power data at each measurement point and has the same size and shape of the photocurrent data. ...log.log contains experimental information and measurement metadata._\
+\
+_...powercube_twobody3\_.npz contains the extracted relative two-body interaction rate. This dataset can be reproduced from the raw photocurrent data using extract\_interaction\_rate\_parallel.py_
 
 ###  Usage instructions
 
